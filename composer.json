@@ -1,0 +1,21 @@
+{
+  "name": "project/new",
+  "description": "lesson-php",
+  "type": "project",
+
+  "autoload": {
+    "psr-4": {
+      "": ""
+    }
+  },
+
+  "require" : {
+    "php" : "^7.0"
+
+  }
+
+
+
+
+
+}

@@ -1,0 +1,25 @@
+
+.form {
+   width: 600px;
+    margin-left: 20px;
+}
+
+.selection {
+    margin-top: 10px;
+}
+
+.footer-text{
+    margin-left: 20px;
+}
+
+#selection1 {
+    display: none;
+}
+
+#selection2 {
+    display: none;
+}
+
+#selection3 {
+    display: none;
+}
