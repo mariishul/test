@@ -14,7 +14,7 @@ use components\Db;
      */
     public static function saveProduct(){
         $db = Db::getConnection();
-        $category = self::getCategoryId($_POST['select'])['category_name'];
+        $category = Category::getCategoryId($_POST['select'])['category_name'];
 
         $className = $category . 'Controller';
         $namespaceControllerName = 'controllers\\' . $className;

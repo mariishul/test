@@ -37,14 +37,14 @@ abstract class ProductController
 
     public static function saveProduct(){
         Product::saveProduct();
-        header("Location:http://localhost:8888/");
+        header("Location:http://localhost:8888");
 
         return true;
     }
 
     public static function deleteProduct(){
         Product::deleteProduct();
-        header("Location:http://localhost:8888/");
+        header("Location:http://localhost:8888");
 
         return true;
     }
